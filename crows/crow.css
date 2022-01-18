@@ -12,7 +12,7 @@ body {
 
 .header,
 .footer {
-    background-color: #1f2937;
+    background-color: #0e1013;
     color: #f9faf8;
 }
 
@@ -34,7 +34,9 @@ body {
 }
 
 .logo {
-    font-weight: bold;
+    height: auto;
+    width: 100px;
+    border-radius: 10px;
 }
 
 a {
@@ -65,7 +67,7 @@ a {
 
 button {
     align-self: flex-start;
-    background-color: #3882f6;
+    background-color: #120053;
     color: #f9faf8;
     border: none;
     border-radius: 8px;
@@ -79,6 +81,8 @@ button {
     align-items: center;
     background-color: gray;
     flex: 1 0;
+    height: auto;
+    width: 400px;
 
 }
 
@@ -127,7 +131,7 @@ button {
 .card {
     height: 150px;
     width: 150px;
-    border: 2px solid #3882f6;
+    border: 2px solid #120053;
     border-radius: 25px;
     margin-bottom: 10px;
 }
@@ -173,7 +177,7 @@ button {
 
 .cta-small {
     display: flex;
-    background-color: #3882f6;
+    background-color: #120053;
     justify-content: space-between;
     max-width: 800px;
     padding: 50px 100px;
