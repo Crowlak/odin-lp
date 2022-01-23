@@ -205,6 +205,7 @@ button {
 
 .cta {
     border: 2px solid;
+    align-self: center;
 }
 
 .footer {
